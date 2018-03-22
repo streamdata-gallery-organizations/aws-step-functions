@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateStateMachine&k=1:
+  /?Action=CreateStateMachine:
     get:
       summary: ' Create State Machine '
       description: Creates a state machine
