@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopExecution&k=1:
+  /?Action=StopExecution:
     get:
       summary: ' Stop Execution '
       description: Stops an execution
