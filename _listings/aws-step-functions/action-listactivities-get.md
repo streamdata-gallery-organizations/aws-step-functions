@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListActivities&k=1:
+  /?Action=ListActivities:
     get:
       summary: ' List Activities '
       description: Lists the existing activities
