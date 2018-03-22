@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListStateMachines&k=1:
+  /?Action=ListStateMachines:
     get:
       summary: ' List State Machines '
       description: Lists the existing state machines
