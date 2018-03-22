@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartExecution&k=1:
+  /?Action=StartExecution:
     get:
       summary: ' Start Execution '
       description: Starts a state machine execution
