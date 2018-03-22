@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteStateMachine&k=1:
+  /?Action=DeleteStateMachine:
     get:
       summary: ' Delete State Machine '
       description: Deletes a state machine
