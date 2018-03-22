@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListExecutions&k=1:
+  /?Action=ListExecutions:
     get:
       summary: ' List Executions '
       description: Lists the executions of a state machine that meet the filtering
