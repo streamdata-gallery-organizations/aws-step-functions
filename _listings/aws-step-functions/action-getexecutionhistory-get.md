@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetExecutionHistory&k=1:
+  /?Action=GetExecutionHistory:
     get:
       summary: ' Get Execution History '
       description: Returns the history of the specified execution as a list of events
