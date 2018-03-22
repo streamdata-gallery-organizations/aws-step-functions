@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SendTaskHeartbeat&k=1:
+  /?Action=SendTaskHeartbeat:
     get:
       summary: ' Send Task Heartbeat '
       description: "Used by workers to report to the service that the task represented
