@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStateMachine&k=1:
+  /?Action=DescribeStateMachine:
     get:
       summary: ' Describe State Machine '
       description: Describes a state machine
