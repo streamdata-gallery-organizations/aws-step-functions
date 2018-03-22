@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeActivity&k=1:
+  /?Action=DescribeActivity:
     get:
       summary: ' Describe Activity '
       description: Describes an activity
