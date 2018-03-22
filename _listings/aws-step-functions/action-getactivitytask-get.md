@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetActivityTask&k=1:
+  /?Action=GetActivityTask:
     get:
       summary: ' Get Activity Task '
       description: "Used by workers to retrieve a task (with the specified activity
