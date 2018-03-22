@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SendTaskFailure&k=1:
+  /?Action=SendTaskFailure:
     get:
       summary: ' Send Task Failure '
       description: Used by workers to report that the task identified by the taskToken
