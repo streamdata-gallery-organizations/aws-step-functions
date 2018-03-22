@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SendTaskSuccess&k=1:
+  /?Action=SendTaskSuccess:
     get:
       summary: ' Send Task Success '
       description: Used by workers to report that the task identified by the taskToken
